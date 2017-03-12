@@ -1,0 +1,115 @@
+
+body{
+  font-family:Helvetica;
+}
+.menu {
+    position: fixed;
+    height: 45px;
+    width: 100%;
+    background: #2a2a2a;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+    img {}
+}
+
+.banner {
+    padding-top: 45px;
+    // background: url(/img/ban_er2.png) repeat-y #fc0;
+    background: url(../img/ban_er2.png) no-repeat;
+    background-size: cover;
+    height: 244px;
+    text-align: center;
+}
+
+.title {
+    margin:0 1em;
+    padding-top: 1em;
+    font-family: AA-BebasNeue;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.72);
+    letter-spacing: 0;
+    text-shadow: 0 6px 10px rgba(0, 0, 0, 0.50);
+}
+
+.bat {
+    padding-top: 1em;
+    font-family: AA-BebasNeue;
+    font-size: 14px;
+    color: #e6e6e6;
+    letter-spacing: 0;
+    line-height: 24px;
+    text-align: center;
+}
+
+.btn-banner {
+    margin: auto;
+    padding-top: .5em;
+    button {
+        font-family: AA-BebasNeue;
+        font-size: 18px;
+        // letter-spacing: 1.5px;
+        color: #fff;
+        background-color: #f6de30;
+        border-color: #f6de30;
+        width: 137px;
+        height: 30px;
+        display: inline-block;
+        line-height: 1.25;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        user-select: none;
+        border: 1px solid transparent;
+        border-radius: .25rem;
+        transition: all .2s ease-in-out;
+       &:hover{
+          background-color: #F69F2E;
+          border-color: #F69F2E;
+       }
+       } 
+}
+
+#preim {
+    text-align:center;
+  .prm{
+  }
+}
+
+#work {
+  background:#2a2a2a;
+  // height:290px;
+  color: #fff;
+  padding-bottom: .8em;
+  h3{
+  text-align:center;
+    padding-top:.75em;
+  }
+  .worklist{
+    margin-top:.3em;
+    margin-left: 1em;
+    margin-right: .5em;
+
+
+  }
+  img{
+    float: left;
+    // margin-left:1em;
+    margin-right: .8em;
+  }
+  h4{
+    margin-left: 1.8em;
+    font-family:Helvetica;
+    font-size:12px;
+    color:#fefefe;
+    letter-spacing:0;
+    // text-align:left;
+  }
+
+}

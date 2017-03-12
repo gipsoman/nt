@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="86px" height="73px" viewBox="0 0 86 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_credit_card</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile-Portrait" transform="translate(-118.000000, -753.000000)">
+            <g id="Preim" transform="translate(0.000000, 289.000000)">
+                <g id="card" transform="translate(68.000000, 429.000000)">
+                    <g id="ic_credit_card" transform="translate(41.111111, 0.000000)">
+                        <g id="Page-1-Copy">
+                            <g id="Desktop-HD">
+                                <g id="Group-3">
+                                    <g id="Group-4" transform="translate(0.000000, 0.025097)">
+                                        <g id="ic_credit_card">
+                                            <polygon id="Bounds" points="0 0 102.777778 0 102.777778 107.341151 0 107.341151"></polygon>
+                                            <path d="M85.9907407,35.7998084 L17.4722222,35.7998084 C12.71875,35.7998084 8.95023148,39.7803761 8.95023148,44.7449043 L8.90740741,98.4154797 C8.90740741,103.380008 12.71875,107.360576 17.4722222,107.360576 L85.9907407,107.360576 C90.744213,107.360576 94.5555556,103.380008 94.5555556,98.4154797 L94.5555556,44.7449043 C94.5555556,39.7803761 90.744213,35.7998084 85.9907407,35.7998084 L85.9907407,35.7998084 L85.9907407,35.7998084 Z M85.9907407,98.4154797 L17.4722222,98.4154797 L17.4722222,71.5801921 L85.9907407,71.5801921 L85.9907407,98.4154797 L85.9907407,98.4154797 L85.9907407,98.4154797 Z M85.9907407,53.6900002 L17.4722222,53.6900002 L17.4722222,44.7449043 L85.9907407,44.7449043 L85.9907407,53.6900002 L85.9907407,53.6900002 L85.9907407,53.6900002 Z" id="Icon" fill="#D63D1B"></path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

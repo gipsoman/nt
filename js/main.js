@@ -1,0 +1,17 @@
+      var menuLeft = document.getElementById( 'cbp-spmenu-s1' );
+    var showLeft = document.getElementById( 'showLeft' );
+    var body = document.body;
+
+showLeft.onclick = function() {
+  alert (zdszs);
+  classie.toggle( this, 'active' );
+  classie.toggle( menuLeft, 'cbp-spmenu-open' );
+  disableOther( 'showLeft' );
+
+};
+function disableOther( button ) {
+  if( button !== 'showLeft' ) {
+    classie.toggle( showLeft, 'disabled' );
+  }
+} 
+

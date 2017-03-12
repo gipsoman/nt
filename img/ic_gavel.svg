@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="88px" height="91px" viewBox="0 0 88 91" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
+    <title>ic_gavel</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Mobile-Portrait" transform="translate(-115.000000, -520.000000)">
+            <g id="Preim" transform="translate(0.000000, 289.000000)">
+                <g id="gavel" transform="translate(71.000000, 223.000000)">
+                    <g id="ic_gavel" transform="translate(39.777778, 0.000000)">
+                        <g id="Page-1-Copy">
+                            <g id="Desktop-HD">
+                                <g id="Group-3">
+                                    <g id="Group-5" transform="translate(0.000000, 0.023187)">
+                                        <g id="ic_gavel" transform="translate(0.303445, 0.000000)">
+                                            <polygon id="Bounds" points="0 0 98.9496957 0 98.9496957 99.1734327 0 99.1734327"></polygon>
+                                            <path d="M3.99014649,90.5827093 L53.4649944,90.5827093 L53.4649944,98.8471616 L3.99014649,98.8471616 L3.99014649,90.5827093 L3.99014649,90.5827093 Z M21.491874,37.1530222 L33.1596923,25.4712183 L91.4575548,83.9091632 L79.797982,95.5950996 L21.491874,37.1530222 L21.491874,37.1530222 Z M50.649051,7.93818182 L73.972319,31.3100541 L62.3045007,43.0042547 L38.9936014,19.6158535 L50.649051,7.93818182 L50.649051,7.93818182 Z M15.6373503,43.0001225 L38.9606182,66.376127 L27.3010457,78.0620632 L3.97777778,54.6860586 L15.6373503,43.0001225 L15.6373503,43.0001225 Z" id="Icon" fill="#D63D1B"></path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

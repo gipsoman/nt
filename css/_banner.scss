@@ -1,0 +1,51 @@
+/* Banner
+   ========================================================================== */
+.banner {
+  text-align:center;
+  // height: 250px;
+  // background: #2C3E50;
+   // background: linear-gradient(to left, #2C3E50 , #FD746C);
+  background: linear-gradient(to top, $orange, #AAAC9F);
+  color:#fff;
+  h1{
+    margin: 0;
+    padding: .7em .75em;
+    // font-family:AA-BebasNeue;
+    font-size:1.5em;
+    color:rgba(255,255,255,.9);
+    letter-spacing:0;
+    text-shadow:0 6px 10px rgba(0,0,0,0.25);
+    text-align:center;
+
+ 
+      .price_no{
+        font-size:90%;
+        color:$orange;
+        text-decoration: line-through;
+      }
+      .price_yes{
+        font-size:120%;
+      } 
+  }
+  h4{
+
+  }
+  .btn-warning {
+    margin: 2em 0;
+    color: #000;
+    background-color: #f1c40f;
+    padding: 10px 15px;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.4;
+    border: none;
+    border-radius: 4px;
+    -webkit-transition: border .25s linear,color .25s linear,background-color .25s linear;
+    transition: border .25s linear,color .25s linear,background-color .25s linear;
+    -webkit-font-smoothing: subpixel-antialiased;
+    &:hover{
+          background-color: #f4d313;
+    border-color: #f4d313;
+    }
+    }
+}

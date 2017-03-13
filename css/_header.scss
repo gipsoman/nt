@@ -1,0 +1,36 @@
+
+/* Header
+   ========================================================================== */
+
+header{
+  height: 45px;
+  background: #000;
+  position: relative;
+}
+.logo-img {
+  position:absolute;
+  left: 15%;
+  top: 15%;
+  height: 60%;
+}
+.menu-svg{
+  position:absolute;
+  left:.75em;
+  top:.5em;
+
+}
+.tel-svg{
+  
+    position:absolute;
+    top:30%;
+    left:60%;
+    font-size: 16px;
+    a{
+      color: #fff;
+      text-decoration: none
+    }
+}
+.st0   {
+  fill: #fff;
+}
+  

@@ -66,7 +66,25 @@
                   </ul>
               </div>
           </div>
-        <script src="js/main.js"></script>
+          <script>
+            $(function(){
+
+  menuToggle();
+
+
+});
+
+function menuToggle(){
+  $('.menu-plate').on('click', function(e){
+    e.stopPropagation();
+  });
+
+  $('.menu-close, header .menu-svg, .menu-overlay').on('click', function(){
+    $('html').toggleClass('menu-open');
+  });
+}
+          </script>
+        <!-- <script src="js/main.js"></script> -->
     </body>
 </html> 
 <!-- <h1>Гипсокартонные полотки, стены, перегородки для Ваших объектов всего от <span class="price_no"> 120 </span> <span class="price_yes">100 </span>грн м<sup>2</sup></h1> -->

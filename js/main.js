@@ -1,17 +1,17 @@
-      var menuLeft = document.getElementById( 'cbp-spmenu-s1' );
-    var showLeft = document.getElementById( 'showLeft' );
-    var body = document.body;
+$(function(){
 
-showLeft.onclick = function() {
-  alert (zdszs);
-  classie.toggle( this, 'active' );
-  classie.toggle( menuLeft, 'cbp-spmenu-open' );
-  disableOther( 'showLeft' );
+  menuToggle();
 
-};
-function disableOther( button ) {
-  if( button !== 'showLeft' ) {
-    classie.toggle( showLeft, 'disabled' );
-  }
-} 
+
+});
+
+function menuToggle(){
+  $('.menu-plate').on('click', function(e){
+    e.stopPropagation();
+  });
+
+  $('.menu-close, header .menu-svg, .menu-overlay').on('click', function(){
+    $('html').toggleClass('menu-open');
+  });
+}
 

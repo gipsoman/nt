@@ -1,0 +1,60 @@
+/* Price +
+   ========================================================================== */
+
+
+.price-line{
+
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  margin: 2em 0;
+}
+.pricelist {
+    background:#ffffff;
+    box-shadow:0 0 7px 5px rgba(0,0,0,0.15);
+    border-radius:15px;
+    width: 40%; 
+    height:200px;
+    // padding: 5%;
+    margin: 5%;
+    text-align:center;
+    display:block;
+}
+.price_name{
+    // font-family:HelveticaNeue-Bold;
+    font-size: .9em;
+    color:#3c3c3c;
+    letter-spacing:0;
+    text-align:center;
+    margin: 1.2em .6em;
+}
+.cena{
+  // font-family:HelveticaNeueCyr-Bold;
+    margin-top: 1em;
+    font-size: .9em;
+    font-weight:bold;
+    color:#000000;
+    letter-spacing:0;
+    text-align:center;
+}
+
+.price_c{
+    margin-top: 1em;
+    font-size: 1em;
+    color:#9a9a9a;
+    letter-spacing:0;
+    text-align:center;
+    margin-bottom: 1.5em;
+}
+
+.btn-price {
+    background: rgb(28, 184, 65); 
+    border-radius:5px; 
+    padding: .6em 1.2em;
+    font-size: 0.8em;
+    color:#ffffff;
+    text-align:center;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    border: transparent;
+    text-decoration: none;
+}

@@ -634,7 +634,7 @@ header {
   .worklist h4 {
     font-size: .8em; }
 
-/* Price
+/* Price +
    ========================================================================== */
 .price-line {
   display: -webkit-box;
@@ -653,7 +653,68 @@ header {
 
 .pricelist {
   background: #ffffff;
-  box-shadow: 0 0 7px 5px rgba(0, 0, 0, 0.35);
+  box-shadow: 0 0 7px 5px rgba(0, 0, 0, 0.15);
   border-radius: 15px;
   width: 40%;
-  height: 200px; }
+  height: 200px;
+  margin: 5%;
+  text-align: center;
+  display: block; }
+
+.price_name {
+  font-size: .9em;
+  color: #3c3c3c;
+  letter-spacing: 0;
+  text-align: center;
+  margin: 1.2em .6em; }
+
+.cena {
+  margin-top: 1em;
+  font-size: .9em;
+  font-weight: bold;
+  color: #000000;
+  letter-spacing: 0;
+  text-align: center; }
+
+.price_c {
+  margin-top: 1em;
+  font-size: 1em;
+  color: #9a9a9a;
+  letter-spacing: 0;
+  text-align: center;
+  margin-bottom: 1.5em; }
+
+.btn-price {
+  background: #1cb841;
+  border-radius: 5px;
+  padding: .6em 1.2em;
+  font-size: 0.8em;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  border: transparent;
+  text-decoration: none; }
+
+/* Calc
+   ========================================================================== */
+#calc {
+  background: #d8d8d8;
+  text-align: center;
+  padding-bottom: 2em; }
+
+.calctext {
+  display: block;
+  padding-bottom: 20px; }
+  .calctext p {
+    color: #6f6f6f;
+    letter-spacing: 0;
+    padding: 1.5em 1.2em; }
+
+.btn-calc {
+  background: #d63d1b;
+  border-radius: 10px;
+  padding: .75em 1.8em;
+  font-size: 1em;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none; }

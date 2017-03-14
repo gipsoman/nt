@@ -7,6 +7,7 @@
    // background: linear-gradient(to left, #2C3E50 , #FD746C);
   background: linear-gradient(to top, $orange, #AAAC9F);
   color:#fff;
+  padding-bottom: 2em;
   h1{
     margin: 0;
     padding: .7em .75em;
@@ -20,14 +21,14 @@
  
       .price_no{
         font-size:90%;
-        color:$orange;
-        text-decoration: line-through;
+        color:red;
+        text-decoration: line-through white ;
       }
       .price_yes{
         font-size:120%;
       } 
   }
-  h4{
+  h4{margin-bottom: 1.5em;
 
   }
   .btn-warning {

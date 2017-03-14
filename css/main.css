@@ -571,7 +571,8 @@ header {
   text-align: center;
   background: -webkit-linear-gradient(bottom, #e07159, #AAAC9F);
   background: linear-gradient(to top, #e07159, #AAAC9F);
-  color: #fff; }
+  color: #fff;
+  padding-bottom: 2em; }
   .banner h1 {
     margin: 0;
     padding: .7em .75em;
@@ -582,10 +583,12 @@ header {
     text-align: center; }
     .banner h1 .price_no {
       font-size: 90%;
-      color: #e07159;
-      text-decoration: line-through; }
+      color: red;
+      text-decoration: line-through white; }
     .banner h1 .price_yes {
       font-size: 120%; }
+  .banner h4 {
+    margin-bottom: 1.5em; }
   .banner .btn-warning {
     margin: 2em 0;
     color: #000;
@@ -628,7 +631,7 @@ header {
 .worklist {
   display: inline-block;
   margin: .5em 1.5em; }
-  .worklist img {
+  .worklist svg {
     float: left;
     margin-right: 1em; }
   .worklist h4 {

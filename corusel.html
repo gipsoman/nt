@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.min.css">
+
+    </head>
+    <body>
+<section id="rt-showcase-surround">
+            <div id="rt-showcase" class="slider-container rt-overlay-dark">
+                <div class="rt-container slider-container">
+                    <div class="rt-grid-12 rt-alpha rt-omega">
+
+
+  <div class="csslider1 autoplay cs_handle">
+    <input name="cs_anchor1" id="cs_slide1_0" type="radio" class="cs_anchor slide">
+    <input name="cs_anchor1" id="cs_slide1_1" type="radio" class="cs_anchor slide">
+    <input name="cs_anchor1" id="cs_slide1_2" type="radio" class="cs_anchor slide">
+    <input name="cs_anchor1" id="cs_play1" type="radio" class="cs_anchor" checked="">
+    <input name="cs_anchor1" id="cs_pause1_0" type="radio" class="cs_anchor pause">
+    <input name="cs_anchor1" id="cs_pause1_1" type="radio" class="cs_anchor pause">
+    <input name="cs_anchor1" id="cs_pause1_2" type="radio" class="cs_anchor pause">
+    <ul>
+      <li class="cs_skeleton"><a href="http://montagnik.od.ua"><img src="http://cssslider.com/sliders/demo-32/data1/images/herbage349812_1280.jpg" style="width: 100%;"></a></li>
+      <li class="num0 img slide"> <img src="http://cssslider.com/sliders/demo-32/data1/images/herbage349812_1280.jpg" alt="Night Herb" title="Night Herb"></li>
+      <li class="num1 img slide"> <img src="http://cssslider.com/sliders/demo-32/data1/images/pasture349725_1280.jpg" alt="Pasture Herbage" title="Pasture Herbage"></li>
+      <li class="num2 img slide"> <img src="http://cssslider.com/sliders/demo-32/data1/images/flowers690425_1280.jpg" alt="Summer Field" title="Summer Field"></li>
+    </ul>
+  <div class="cs_gestures cs_show"><div style="transform: translate3d(375px, 0px, 0px); transition: transform 147.826ms linear;"><img src="http://cssslider.com/sliders/demo-32/data1/images/flowers690425_1280.jpg" alt="Summer Field" title="Summer Field" class="cs_first_img"><img src="http://cssslider.com/sliders/demo-32/data1/images/herbage349812_1280.jpg" alt="Night Herb" title="Night Herb"><img src="http://cssslider.com/sliders/demo-32/data1/images/pasture349725_1280.jpg" alt="Pasture Herbage" title="Pasture Herbage"><img src="http://cssslider.com/sliders/demo-32/data1/images/flowers690425_1280.jpg" alt="Summer Field" title="Summer Field"><img src="http://cssslider.com/sliders/demo-32/data1/images/herbage349812_1280.jpg" alt="Night Herb" title="Night Herb" class="cs_last_img"></div></div></div>
+  
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </section>
+
+
+<script >
+  !function(e){function t(e,t){if(!e)return[];for(var a=[],n=new RegExp("(^| )"+t+"( |\\d|$)"),s=e.getElementsByTagName("*"),r=0,o=s.length;o>r;r++)n.test(s[r].className)&&a.push(s[r]);return a;}function a(e,t){var a=new RegExp("(^|\\s)"+t+"(\\s|$)","g");return a.test(e.className)||(e.className=(e.className+" "+t).replace(/\s+/g," ").replace(/(^ | $)/g,"")),e}function n(e,t){var a=new RegExp("(^|\\s)"+t+"(\\s|$)","g");return e.className=e.className.replace(a,"$1").replace(/\s+/g," ").replace(/(^ | $)/g,""),e}function s(e,t){for(var a in t)e.style[a]=t[a];}function r(e,t,a){if(e){t=t.split(" ");for(var n in t)e.addEventListener(t[n],a,!1);}}function o(o){a(o,"cs_handle");var i=t(o.getElementsByTagName("ul")[0],"img"),c=e.createElement("div"),l=e.createElement("div");a(l,"cs_gestures"),l.appendChild(c),o.appendChild(l),c.appendChild(a(i[i.length-1].getElementsByTagName("img")[0].cloneNode(),"cs_first_img"));for(var p in i)c.appendChild(i[p].getElementsByTagName("img")[0].cloneNode());c.appendChild(a(i[0].getElementsByTagName("img")[0].cloneNode(),"cs_last_img"));var d=t(o,"cs_anchor slide"),m=0,g=0,f=300,u=15,h=0,v=o.clientWidth;r(o,"mousedown touchstart",function(e){if(!/cs_play_pause|cs_arrowprev|cs_arrownext|cs_bullets|cs_thumb/g.test(e.target.parentNode.className)&&!/cs_bullets/g.test(e.target.parentNode.parentNode.className)){m=(e.touches?e.touches[0]:e).pageX,g=0,e.stopPropagation(),v=o.clientWidth;for(var t in d)if(d[t].checked){h=t;break}a(o,"cs_grab"),d[h].checked=!0,s(c,{WebkitTransition:"",transition:"",WebkitTransform:"translate3d("+-v*h+"px,0px,0px)",transform:"translate3d("+-v*h+"px,0px,0px)"});}}),r(e,"mousemove touchmove",function(e){if(m){var t=(e.touches?e.touches[0]:e).pageX;e.preventDefault(),e.stopPropagation(),g=t-m>=v?v+m:-v>=t-m?-v+m:t,a(l,"cs_show"),s(c,{WebkitTransform:"translate3d("+(-v*h+g-m)+"px,0px,0px)",transform:"translate3d("+(-v*h+g-m)+"px,0px,0px)"});}}),r(e,"mouseup touchend",function(e){if(m){g&&(e.preventDefault(),e.stopPropagation()),n(o,"cs_grab");var t=m-g,a=0;if(g&&Math.max(t,-1*t)>u){for(var r in d)if(d[r].checked){t>0&&r<d.length-1?h=1*r+1:0>t&&r>0?h=1*r-1:0>t?(a=-1,h=d.length-1):(a=d.length,h=0);break}d[h].checked=!0}var i=Math.max((v+(t>0?-1:1)*t)/v,.3);s(c,{WebkitTransition:"-webkit-transform "+f*i+"ms linear",transition:"transform "+f*i+"ms linear",WebkitTransform:"translate3d("+-v*(a||h)+"px,0px,0px)",transform:"translate3d("+-v*(a||h)+"px,0px,0px)"}),g=0,m=0}});var x=t(o,"cs_anchor");for(var p in x)(function(e){r(x[e],"change",function(){e!=h&&n(l,"cs_show")});})(p)}window.cssSliderGestures||(window.cssSliderGestures=1,(!e.all||window.atob)&&r(window,"load",function(){for(var a=t(e.body,"csslider"),n=0,s=a.length;s>n;n++)new o(a[n])}))}(document);
+</script>
+
+
+
+
+    </body>
+</html> 

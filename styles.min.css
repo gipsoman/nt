@@ -1,0 +1,267 @@
+
+/*     #rt-showcase.slider-container { background: #F5F6F8; } */
+/*     .slider-container {
+        padding-top: 20px;
+    } */
+    .slider-container .csslider1 {
+        position: relative;
+        display: block;
+        margin: 0 auto !important;
+    }
+/* ------------- General ------------- */
+    
+    .csslider1 {
+      display: inline-block;
+      position: relative;
+      max-width: 960px;
+      
+      
+
+      width: 100%;
+    }
+    .csslider1,
+    .csslider1 *,
+    .csslider1 *:after,
+    .csslider1 *:before {
+      -webkit-box-sizing: content-box;
+      -moz-box-sizing: content-box;
+      box-sizing: content-box;
+    }
+    .csslider1 > .cs_anchor {
+      display: none;
+    }
+    .csslider1 > ul {
+      position: relative;
+      z-index: 1;
+      font-size: 0;
+      line-height: 0;
+      margin: 0 auto;
+      padding: 0;
+      
+      overflow: hidden;
+      white-space: nowrap;
+    }
+    .csslider1 > ul > .cs_skeleton {
+      width: 100%;
+      visibility: hidden;
+      font-size: 0px;
+      line-height: 0;
+    }
+
+    .csslider1 > ul > .slide.img img {
+      width: 100%;
+    }
+
+
+
+    .csslider1 > ul > .slide.img a {
+      font-size: 0pt;
+      color: transparent;
+    }
+    .csslider1 > ul > .slide {
+      position: relative;
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      font-size: 15px;
+      font-size: initial;
+      line-height: normal;
+      white-space: normal;
+      vertical-align: top;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+
+      -webkit-transform: translate3d(0,0,0);
+      transform: translate3d(0,0,0);
+    }
+    .csslider1 .cs_engine{
+      position: absolute;
+      top: -9999px;
+      left: -9999px;
+      font-size: 0pt;
+      opacity: 0;
+      filter: alpha(opacity=0);
+    }
+
+    .csslider1 > ul > li.img,
+    .csslider1 > .cs_arrowprev,
+    .csslider1 > .cs_arrownext,
+    .csslider1 > .cs_bullets,
+    .csslider1 > .cs_play_pause {
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+/* ------------- /General Styles ------------- */
+
+
+/* ------------- General Gestures ------------- */
+
+
+    .csslider1 .cs_gestures {
+      visibility: hidden;
+      position: absolute;
+      font-size: 0;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      z-index: 1;
+      opacity: 0;
+
+      -webkit-transition: visibility .3s linear, opacity .3s linear;
+      transition: visibility .3s linear, opacity .3s linear;
+    }
+    .csslider1 .cs_gestures.cs_show {
+      visibility: visible;
+      opacity: 1;
+    }
+    .csslider1 .cs_gestures.cs_show img {
+      width: 33.333333333333336%;
+    }
+    .csslider1 .cs_gestures.cs_show .cs_first_img {
+      position: absolute;
+      left: -33.333333333333336%;
+      top: 0;
+    }
+    .csslider1 .cs_gestures.cs_show .cs_last_img {
+      position: absolute;
+      left: 100%;
+      top: 0;
+    }
+
+    .csslider1 .cs_gestures > div {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 300%;
+    }
+/* ------------- /General Gestures ------------- */
+
+/* ------------- Effect ------------- */
+    .csslider1 > ul {
+      overflow: hidden;
+    }
+
+    .csslider1 > ul > .slide {
+      position: absolute;
+      left: 0;
+      top: 0;
+      display: inline-block;
+      opacity: 0;
+      z-index: 1;
+
+      -webkit-transition: -webkit-transform 1600ms cubic-bezier(0.680, -0.550, 0.265, 1.550), opacity 1600ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+      transition: -webkit-transform 1600ms cubic-bezier(0.680, -0.550, 0.265, 1.550), transform 1600ms cubic-bezier(0.680, -0.550, 0.265, 1.550), opacity 1600ms cubic-bezier(0.680, -0.550, 0.265, 1.550);
+
+      -webkit-transform: translateY(-50%);
+      transform: translateY(-50%);
+    }
+
+
+    .csslider1 > #cs_slide1_0:checked ~ ul > .slide.num0,
+    .csslider1 > #cs_pause1_0:checked ~ ul > .slide.num0,
+    .csslider1 > #cs_slide1_1:checked ~ ul > .slide.num1,
+    .csslider1 > #cs_pause1_1:checked ~ ul > .slide.num1,
+    .csslider1 > #cs_slide1_2:checked ~ ul > .slide.num2,
+    .csslider1 > #cs_pause1_2:checked ~ ul > .slide.num2 {
+      opacity: 1;
+      z-index: 2;
+
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+
+
+
+
+    @-webkit-keyframes jump1 {
+      0%, 47.00854700854701%, 100%  {
+        opacity: 0;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        -webkit-animation-timing-function: cubic-bezier(0.680, -0.550, 0.265, 1.550);
+      }
+      13.675213675213676%, 33.333333333333336%  {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        -webkit-animation-timing-function: cubic-bezier(0.680, -0.550, 0.265, 1.550);
+      }
+      0%, 33.33233333333334%  {
+        z-index: 2;
+        -webkit-animation-timing-function: cubic-bezier(0.680, -0.550, 0.265, 1.550);
+      }
+      33.33433333333333%, 100%  { z-index: 1; }
+    }
+    @keyframes jump1 {
+      0%, 47.00854700854701%, 100%  {
+        opacity: 0;
+        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
+        -webkit-animation-timing-function: cubic-bezier(0.680, -0.550, 0.265, 1.550);
+        animation-timing-function: cubic-bezier(0.680, -0.550, 0.265, 1.550);
+      }
+      13.675213675213676%, 33.333333333333336%  {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+        -webkit-animation-timing-function: cubic-bezier(0.680, -0.550, 0.265, 1.550);
+        animation-timing-function: cubic-bezier(0.680, -0.550, 0.265, 1.550);
+      }
+      0%, 33.33233333333334%  {
+        z-index: 2;
+        -webkit-animation-timing-function: cubic-bezier(0.680, -0.550, 0.265, 1.550);
+        animation-timing-function: cubic-bezier(0.680, -0.550, 0.265, 1.550);
+      }
+      33.33433333333333%, 100%  { z-index: 1; }
+    }
+
+    .csslider1 > #cs_play1:checked ~ ul > .slide.num0 {
+      -webkit-animation: jump1 11700ms infinite -1600ms;
+      animation: jump1 11700ms infinite -1600ms;
+    }
+    .csslider1 > #cs_play1:checked ~ ul > .slide.num1 {
+      -webkit-animation: jump1 11700ms infinite 2300ms;
+      animation: jump1 11700ms infinite 2300ms;
+    }
+    .csslider1 > #cs_play1:checked ~ ul > .slide.num2 {
+      -webkit-animation: jump1 11700ms infinite 6200ms;
+      animation: jump1 11700ms infinite 6200ms;
+    }
+
+
+
+    .csslider1 > #cs_play1:checked ~ ul > .slide,
+    .csslider1 > .pause:checked ~ ul > .slide {
+      -webkit-transition: none;
+      transition: none;
+    }
+
+
+/* ------------- /Effect ------------- */
+
+
+
+
+
+    
+/* hide description & bullets on mobile devices */
+    @media
+    only screen and (max-width: 480px),
+    only screen and (-webkit-max-device-pixel-ratio: 2)      and (max-width: 480px),
+    only screen and (   max--moz-device-pixel-ratio: 2)      and (max-width: 480px),
+    only screen and (     -o-max-device-pixel-ratio: 2/1)    and (max-width: 480px),
+    only screen and (        max-device-pixel-ratio: 2)      and (max-width: 480px),
+    only screen and (                max-resolution: 192dpi) and (max-width: 480px),
+    only screen and (                max-resolution: 2dppx)  and (max-width: 480px) { 
+      .csslider1 > .cs_description,
+      .csslider1 > .cs_bullets {
+        display: none;
+      }
+    }
